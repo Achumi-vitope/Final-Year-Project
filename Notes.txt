@@ -1,0 +1,26 @@
+
+
+##########################################
+fp-3 cursor
+Elapsed time: 10786.81 seconds
+ (1, 4.535775721073151, {'accuracy': 0.9191270860077022, 'precision': 0.9566055930568949, 'f1_score': 0.9501915708812261}, 10598.197011500015)
+ num_rounds: 1
+num_clients: 4
+batch_size: 20
+num_classes: 2
+num_clients_per_round_fit: 4
+num_clients_per_round_eval: 4
+config_fit:
+  lr: 0.00001
+  momentum: 0.9
+  local_epochs: 20
+  //////////////////////////////////////
+
+client 1
+fit progress: (1, 0.9563798842136748, {'accuracy': 0.9783653846153846, 'precision': 0.9733333333333334, 'f1_score': 0.984822934232715}, 1133.0817652000114)
+[2024-05-14 02:12:36,410][flwr][INFO] - configure_evaluate: strategy sampled 1 clients (out of 1)
+[2024-05-14 02:12:42,867][flwr][ERROR] - Traceback (most recent call last):
+
+
+
+
